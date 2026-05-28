@@ -3490,7 +3490,7 @@ body .enabled_custom_title .title_page .main_tit {
   padding: 0;
   font-weight: 600;
   color: #083582;
-  font-family: var(--creote-family-one);
+  /* font-family: var(--creote-family-one); */
   transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
@@ -22197,7 +22197,7 @@ form .wpcf7-response-output {
 .image_box_new.type_two .quote {
   position: absolute;
   bottom: 0px;
-  padding: 30px 30px 30px;
+  /* padding: 30px 30px 30px; */
   left: 0;
   text-align: center;
   width: 100%;
@@ -26430,9 +26430,9 @@ input[type=checkbox]:checked:after {
   border-top: 8px solid var(--primary-color-one);
 }
 
-b, strong {
+/* b, strong {
   font-family: var(--creote-family-one);
-}
+} */
 
 .woocommerce span.onsale {
   border-radius: 50px;
@@ -30625,12 +30625,11 @@ body.side_menu_toggled .style-switcher {
     left: 0;
     width: 100%;
     height: 100%;
-    
-    background: linear-gradient(
-        to bottom,
-        rgba(18, 30, 55, 0.35),
-        rgba(0, 255, 220, 0.45)
-    );
+   background: linear-gradient(
+    to bottom,
+    rgba(18, 30, 55, 0.18),
+    rgba(0, 255, 220, 0.12)
+);
 
     z-index: 2;
 }
