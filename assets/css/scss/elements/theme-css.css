@@ -1091,7 +1091,7 @@
 .bg_op_1 {
   background-repeat: no-repeat !important;
   background-position: center !important;
-  background-size: cover !important;
+  /* background-size: cover !important; */
 }
 
 .bg_op_2 {
@@ -1588,7 +1588,7 @@ h6 a,
 h6 {
   font-weight: 700;
   margin: 0;
-  color: var(--primary-color-two);
+  color: #133673;
   font-family: var(--creote-family-one);
   transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
@@ -14949,7 +14949,7 @@ header .flaticon-list {
 
 .p_pagination .swiper-pagination {
   position: relative !important;
-  padding: 60px 0px 0px;
+  padding: 30px 0px 0px;
   text-align: center;
   margin: auto;
   width: 100% !important;
@@ -24084,7 +24084,7 @@ form .wpcf7-response-output {
   height: 90px;
   margin: 0 auto;
   text-align: center;
-  background: var(--primary-color-three);
+  background: white;
   border-radius: 50px;
   font-weight: 500;
   transition: all 0.6s ease-in-out;
