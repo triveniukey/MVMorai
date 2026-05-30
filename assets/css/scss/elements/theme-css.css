@@ -5984,7 +5984,7 @@ body.single-header {
   font-weight: 400;
 }
 .header_v13 .header_top ul li span {
-  color: var(--primary-color-one);
+  color: white;
   font-size: 16px;
   margin-right: 6px;
   line-height: 25px;
